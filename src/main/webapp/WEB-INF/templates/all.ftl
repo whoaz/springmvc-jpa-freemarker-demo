@@ -11,13 +11,14 @@
         <td>Name</td>
         <td>Country</td>
     </tr>
-    <#list cities as city>
+    <#list cities.content as city>
         <tr>
             <td>${city.id}</td>
             <td>${city.name}</td>
             <td>${city.countryCode}</td>
         </tr>
     </#list>
+
 </table>
 
 </body>

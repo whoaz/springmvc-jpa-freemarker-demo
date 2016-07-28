@@ -13,7 +13,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * Created by helloz on 2016/7/27.
  */
 @Configuration
-
 @ComponentScan(basePackages={"com.yida.demo"},
         excludeFilters=@ComponentScan.Filter(type=FilterType.REGEX, pattern={"com.yida.demo.controller.*"}))
 @PropertySource(value = {"classpath:config.properties"})
