@@ -27,6 +27,6 @@ public class AppInitializer implements WebApplicationInitializer {
         servlet.addMapping("/");
         servlet.setAsyncSupported(true);
         servlet.setLoadOnStartup(1);
-
     }
+
 }
